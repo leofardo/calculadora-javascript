@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+
+#pos {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#calculadora {
+	width: 320px;
+	height: 485px;
+	background: #000000;
+	border-radius: 20px;
+	margin-bottom: 20px;
+
+}
+
+#display {
+	text-align: right;
+	font-size: 3em;
+	width: 80%;
+	height: 60px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 5px;
+	padding-right: 2px; 
+}
+
+#botões {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+}
+
+#botões button{
+	border-radius: 7px;
+	margin-top: 7px;
+	font-size: 1.5em;
+	background: #fff;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.quatroBtn {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tresBtn {
+	display: flex;
+	justify-content: space-between;
+	width: 73.9%;
+	flex-wrap: wrap;
+}
+
+.maisBtn{
+	display: inline-block;
+	float: right;
+	margin-top: -115px;
+}
+
+.doisBtn{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+
+.maisBtn button {
+	width: 60px;
+	height: 110px;
+}
+
+.tresBtn button, .quatroBtn button, .doisBtn button {
+	width: 60px;
+	height: 50px;
+}
+
+.igualBtn button{
+	width: 190px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculadora</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script src="js/script.js"></script>
+
+	</head>
+	<body>
+		<div id="pos">
+			<div id="calculadora">
+				<div id="display">
+					0
+				</div>
+
+				<div id="botões">
+					
+					<div class="quatroBtn">
+						<button onclick="numeros.maisMenos()">±</button>
+						<button onclick="numeros.raizQuadrada()">√</button>
+						<button onclick="numeros.porcentagem()">%</button>
+						<button onclick="numeros.dividir()">÷</button>
+						<button onclick="numeros.adicionarValor(7)">7</button>
+						<button onclick="numeros.adicionarValor(8)">8</button>
+						<button onclick="numeros.adicionarValor(9)">9</button>
+						<button onclick="numeros.multiplicar()">x</button>
+						<button onclick="numeros.adicionarValor(4)">4</button>
+						<button onclick="numeros.adicionarValor(5)">5</button>
+						<button onclick="numeros.adicionarValor(6)">6</button>
+						<button onclick="numeros.subtrair()">-</button>
+					</div>
+
+					<div class="tresBtn">
+						<button onclick="numeros.adicionarValor(1)">1</button>
+						<button onclick="numeros.adicionarValor(2)">2</button>
+						<button onclick="numeros.adicionarValor(3)">3</button>
+						<button onclick="numeros.adicionarValor(0)">0</button>
+						<button onclick="numeros.adicionarPonto('.')">.</button>
+						<button onclick="numeros.backspace()">←</button>
+					</div>
+
+					<div class="maisBtn">
+						<button onclick="numeros.somar()">+</button>
+						
+					</div>
+
+					<div class="doisBtn">
+						<inline class="igualBtn">
+							<button onclick="numeros.igual()">=</button>
+						</inline>
+
+						<button onclick="numeros.apagarValor()">C</button>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+			
+		
+
+	</body>
+</html>
